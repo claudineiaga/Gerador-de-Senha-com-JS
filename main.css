@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #f1f1f4;
+  color: #fff;
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+h2{
+  margin: 10px 0 20px;
+  text-align: center;
+}
+.container{
+  background-color: #6a4a05;
+  padding: 20px;
+  width: 350px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 20px 20px rgba(126, 90, 17, 0.4);
+}
+.resultado-container{
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+}
+.resultado-container #resultado{
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+}
+.resultado-container .btn{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 60px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+}
+#tamanho{
+    font-weight: bold;
+}
+.btn{
+  border: none;
+  background-color: #947107;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 8px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn-maior{
+  display: block;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.configuracao{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  border-radius: 10px;
+}

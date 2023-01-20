@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gerador de Senha</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div class="container">
+        <h2>Gerador de Senha</h2>
+        <div class="resultado-container">
+          <span id="resultado"></span>
+          <button class="btn" id="copiar">
+            Copiar
+          </button>
+        </div>
+        <div class="configuracoes">
+          <div class="configuracao">
+            <label>Tamanho da Senha</label>
+            <input type="number" id="tamanho" min="4" max="20" value="20" />
+          </div>
+          <div class="configuracao">
+            <label>Incluir Letras Maiúsculas</label>
+            <input type="checkbox" id="maiuscula" checked />
+          </div>
+          <div class="configuracao">
+            <label>Incluir Letras Minúsculas</label>
+            <input type="checkbox" id="minuscula" checked />
+          </div>
+          <div class="configuracao">
+            <label>Incluir Números</label>
+            <input type="checkbox" id="numeros" checked />
+          </div>
+          <div class="configuracao">
+            <label>Incluir Símbolos</label>
+            <input type="checkbox" id="simbolos" checked />
+          </div>
+        </div>
+        <button class="btn btn-maior" id="gerador">
+            Gerar Senha</button>
+      </div>
+    <script src='main.js'></script>
+</body>
+</html>
